@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210302T200127Z
+UID:20210302T200127Z-106563481@marudot.com
+DTSTART;TZID=America/Los_Angeles:20210325T060000
+DTEND;TZID=America/Los_Angeles:20210325T073000
+SUMMARY:GitHub Satellite: Campus Edition
+URL:Twitch.tv/githubeducation
+DESCRIPTION:A celebration of our campus communities. Join your fellow students as industry leaders\, educators\, and recruiters will provide insights to help you land your first job.\n\nTwitch.tv/githubeducation
+END:VEVENT
+END:VCALENDAR

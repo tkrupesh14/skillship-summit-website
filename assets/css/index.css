@@ -9080,6 +9080,7 @@ body.speakers .card__sidebar .speaker__img img {
 .speaker-card .speaker-image img {
     object-fit: cover;
     width: 100%;
+    padding: 10px;
     height: 100%;
     filter: grayscale(100%);
 }
@@ -9106,7 +9107,7 @@ body.speakers .card__sidebar .speaker__img img {
     align-items: flex-end;
     border: 1px solid #000;
     background: rgba(0, 8, 20, 0.6);
-    min-height: 380px;
+    /* min-height: 380px; */
     padding: 16px 24px;
     transform-style: preserve-3d;
     transition: transform 0.48s cubic-bezier(0.16,  1,  0.3,  1);

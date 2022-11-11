@@ -9069,6 +9069,9 @@ body.speakers .card__sidebar .speaker__img img {
     justify-content: flex-start;
     margin: 24px 0;
 }
+.sponsor-card{
+    padding: 40px;
+}
 .speaker-card .speaker-image {
     width: 48px;
     height: 48px;
@@ -9080,7 +9083,6 @@ body.speakers .card__sidebar .speaker__img img {
 .speaker-card .speaker-image img {
     object-fit: cover;
     width: 100%;
-    padding: 10px;
     height: 100%;
     filter: grayscale(100%);
 }
@@ -9107,6 +9109,19 @@ body.speakers .card__sidebar .speaker__img img {
     align-items: flex-end;
     border: 1px solid #000;
     background: rgba(0, 8, 20, 0.6);
+    min-height: 380px;
+    padding: 16px 24px;
+    transform-style: preserve-3d;
+    transition: transform 0.48s cubic-bezier(0.16,  1,  0.3,  1);
+}
+    .sponsor-card {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid #000;
+    background: rgba(0, 8, 20, 0.6);
     /* min-height: 380px; */
     padding: 16px 24px;
     transform-style: preserve-3d;
@@ -9114,6 +9129,9 @@ body.speakers .card__sidebar .speaker__img img {
 }
 }@media (min-width: 1012px) and (min-width: 1280px) {
     .speaker-card {
+    padding: 40px 30px;
+}
+    .sponsor-card {
     padding: 40px 30px;
 }
 }@media (min-width: 1012px) and (min-width: 1800px) {
@@ -9205,6 +9223,10 @@ body.speakers .card__sidebar .speaker__img img {
     transform: scale(1.1);
     z-index: 4;
 }
+.sponsor-card:hover {
+    transform: scale(1.1);
+    z-index: 4;
+}
 .speaker-card:hover .speaker-image:after {
     opacity: 1;
 }
@@ -9260,6 +9282,7 @@ body.speakers .card__sidebar .speaker__img img {
 .speaker-grid li:nth-child(12n+10) .speaker-card__info {
     margin-left: auto;
 }
+
 }.schedule-wrap {
     width: 92%;
     margin-left: auto;

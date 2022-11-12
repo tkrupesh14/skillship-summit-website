@@ -4,6 +4,7 @@
 <!-- Mirrored from githubsatellite.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Nov 2022 09:58:16 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/16bb7f497ffaffaf82c5a216b/33ce4d7d04bef0da2972bb6b3.js");</script>
   <!-- META DATA -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -681,12 +682,12 @@
         <p class="f4 text-dark mb-0">Be the first to hear about upcoming Skillship Summit news&nbsp;and&nbsp;events.</p>
       </div>
       <div id="mc_embed_signup">
-          <form action="https://github.us11.list-manage.com/subscribe/post?u=9d7ced8c4bbd6c2f238673f0f&amp;id=d167c776e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate subscribe-form" target="_blank" rel="noopener noreferrer" novalidate="novalidate">
+          <form method="post"  name="summit-subscribe-form" class="validate subscribe-form" rel="noopener noreferrer">
               <div id="mc_embed_signup_scroll">
                   <div class="mc-body">
                       <div class="mc-field-group">
                           <label for="mce-EMAIL" class="sr-only">Email Address</label>
-                          <input type="email" placeholder="Email address" value="" name="EMAIL" class="form-input required email" id="mce-EMAIL" aria-required="true" aria-invalid="true">
+                          <input type="email" placeholder="Email address" value="" name="email" class="form-input required email" id="mce-EMAIL" aria-required="true" aria-invalid="true">
                           <div for="mce-EMAIL" class="mce_inline_error">This field is required.</div>
                           <div style="position: absolute; left: -5000px;" aria-hidden="true">
                               <input type="text" name="b_9d7ced8c4bbd6c2f238673f0f_d167c776e4" tabindex="-1" value="">
@@ -697,6 +698,17 @@
                           </button>
                       </div>
                   </div>
+                  <script>
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbxkgWotCMyvIKoT9aGtPCndZdHtHrq8i972t9CKAVjO6xC7T0I/exec'
+                    const form = document.forms['google-sheet']
+                  
+                    form.addEventListener('subscribe', e => {
+                      e.preventDefault()
+                      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                        .catch(error => console.error('Error!', error.message))
+                    })
+                  </script>
                   <div id="mce-responses" class="clear">
                       <div class="response" id="mce-error-response" style="display:none"></div>
                       <div class="response" id="mce-success-response" style="display:none"></div>

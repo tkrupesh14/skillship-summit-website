@@ -9382,7 +9382,7 @@ body.speakers .card__sidebar .speaker__img img {
     position: absolute;
     bottom: 0;
     left: 0;
-    background: linear-gradient(92.05deg,  #B392F0 10.42%,  #EC6CB9 47.91%,  #F97583 100%);
+    background: #DEAB15;
     transform: scaleX(0);
     transform-origin: center;
     transition: transform .3s ease-in-out;

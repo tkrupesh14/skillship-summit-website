@@ -6353,7 +6353,7 @@ body.scrolling-up .site-header.is-sticky {
     margin-left: 24px;
 }
 }.desktop-navigation .has-sub-nav>div, .desktop-navigation a:not(.button) {
-    font-size: 14px;
+    font-size: 12px;
     color: #fff;
     font-weight: 400;
     display: flex;

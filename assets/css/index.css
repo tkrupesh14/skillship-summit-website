@@ -6325,7 +6325,7 @@ body.scrolling-up .site-header.is-sticky {
 }
 .desktop-navigation {
     flex-grow: 1;
-    width: 80%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: flex-end;

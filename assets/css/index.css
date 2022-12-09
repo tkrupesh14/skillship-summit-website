@@ -9320,12 +9320,7 @@ body.speakers .card__sidebar .speaker__img img {
     
 }
 }
-@media (min-width:300px ){
-    
-    .past-feedback{
-        display: none;
-    }
-}
+
 @media (min-width: 768px) {
     .on-demand-list .session, .on-demand-list .spacer {
     width: calc(33% - 8px);

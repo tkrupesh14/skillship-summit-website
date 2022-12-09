@@ -6241,6 +6241,7 @@ body.scrolling-up .site-header.is-sticky {
     .event-is-live .site-header .live-navigation a+a {
     margin-left: 18px;
 }
+
 }.event-is-live .site-header .desktop-navigation {
     display: none !important;
 }
@@ -9316,8 +9317,16 @@ body.speakers .card__sidebar .speaker__img img {
 }@media (min-width: 544px) {
     .on-demand-list .session, .on-demand-list .spacer {
     width: calc(50% - 8px);
+    
 }
-}@media (min-width: 768px) {
+}
+@media (min-width:300px ){
+    
+    .past-feedback{
+        display: none;
+    }
+}
+@media (min-width: 768px) {
     .on-demand-list .session, .on-demand-list .spacer {
     width: calc(33% - 8px);
 }
